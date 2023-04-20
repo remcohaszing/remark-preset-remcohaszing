@@ -1,0 +1,12 @@
+{
+  "exclude": ["*.d.ts"],
+  "compilerOptions": {
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "module": "node16",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2021"
+  }
+}
