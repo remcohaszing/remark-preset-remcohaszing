@@ -3,7 +3,6 @@
 [![github actions](https://github.com/remcohaszing/remark-preset-remcohaszing/actions/workflows/ci.yaml/badge.svg)](https://github.com/remcohaszing/remark-preset-remcohaszing/actions/workflows/ci.yaml)
 [![npm](https://img.shields.io/npm/v/remark-preset-remcohaszing)](https://www.npmjs.com/package/remark-preset-remcohaszing)
 [![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
-[![codecov](https://codecov.io/gh/remark-preset-remcohaszing/branch/main/graph/badge.svg)](https://codecov.io/gh/remark-preset-remcohaszing)
 
 An opiniated [remark](https://remark.js.org) preset.
 
