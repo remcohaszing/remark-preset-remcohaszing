@@ -2,7 +2,11 @@
   "name": "remark-preset-remcohaszing",
   "version": "1.0.0",
   "description": "An opiniated remark preset",
-  "keywords": [],
+  "keywords": [
+    "preset",
+    "remark",
+    "remark-preset"
+  ],
   "homepage": "https://github.com/remcohaszing/remark-preset-remcohaszing#readme",
   "bugs": "https://github.com/remcohaszing/remark-preset-remcohaszing/issues",
   "repository": "remcohaszing/remark-preset-remcohaszing",
