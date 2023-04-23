@@ -46,6 +46,7 @@ the following plugins:
 - [`remark-frontmatter`](https://github.com/remarkjs/remark-frontmatter)
 - [`remark-gfm`](https://github.com/remarkjs/remark-gfm)
 - [`remark-lint-definition-case`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-definition-case)
+- [`remark-lint-final-definition`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-final-definition)
 - [`remark-lint-heading-increment`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-heading-increment)
 - [`remark-lint-no-duplicate-defined-urls`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-no-duplicate-defined-urls)
 - [`remark-lint-no-duplicate-definitions`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-no-duplicate-definitions)

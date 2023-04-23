@@ -1,6 +1,7 @@
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkGfm from 'remark-gfm'
 import remarkLintDefinitionCase from 'remark-lint-definition-case'
+import remarkLintFinalDefinition from 'remark-lint-final-definition'
 import remarkLintHeadingHncrement from 'remark-lint-heading-increment'
 import remarkLintNoDuplicateDefinedUrls from 'remark-lint-no-duplicate-defined-urls'
 import remarkLintNoDuplicateDefinitions from 'remark-lint-no-duplicate-definitions'
@@ -35,6 +36,7 @@ const remarkPresetRemcohaszing = {
     [remarkFrontmatter, ['toml', 'yaml']],
     remarkGfm,
     remarkLintDefinitionCase,
+    remarkLintFinalDefinition,
     remarkLintHeadingHncrement,
     remarkLintNoDuplicateDefinedUrls,
     remarkLintNoDuplicateDefinitions,

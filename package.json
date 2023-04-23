@@ -28,6 +28,7 @@
     "remark-frontmatter": "^4.0.0",
     "remark-gfm": "^3.0.0",
     "remark-lint-definition-case": "^3.0.0",
+    "remark-lint-final-definition": "^3.0.0",
     "remark-lint-heading-increment": "^3.0.0",
     "remark-lint-no-duplicate-defined-urls": "^2.0.0",
     "remark-lint-no-duplicate-definitions": "^3.0.0",
