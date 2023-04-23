@@ -32,7 +32,7 @@ const remarkPresetRemcohaszing = {
     listItemIndent: 'one'
   },
   plugins: [
-    remarkFrontmatter,
+    [remarkFrontmatter, ['toml', 'yaml']],
     remarkGfm,
     remarkLintDefinitionCase,
     remarkLintHeadingHncrement,
