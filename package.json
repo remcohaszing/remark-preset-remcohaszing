@@ -37,7 +37,6 @@
     "remark-lint-no-unneeded-full-reference-image": "^3.0.0",
     "remark-lint-no-unneeded-full-reference-link": "^3.0.0",
     "remark-lint-no-unused-definitions": "^3.0.0",
-    "remark-prettier": "^2.0.0",
     "remark-retext": "^5.0.0",
     "remark-toc": "^8.0.0",
     "remark-validate-links": "^12.0.0",
@@ -47,12 +46,12 @@
     "retext-repeated-words": "^4.2.0",
     "retext-syntax-urls": "^3.1.2",
     "unified": "^10.0.0",
-    "unified-consistency": "^1.0.0"
+    "unified-consistency": "^1.0.0",
+    "unified-prettier": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0",
-    "eslint-config-remcohaszing": "^8.0.0",
-    "prettier": "^2.0.0",
+    "prettier": "^3.0.0",
     "remark-cli": "^11.0.0",
     "typescript": "^5.0.0"
   },

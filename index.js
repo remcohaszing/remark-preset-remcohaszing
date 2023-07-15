@@ -10,7 +10,6 @@ import remarkLintNoReferenceLikeUrl from 'remark-lint-no-reference-like-url'
 import remarkLintNoUnneededFullReferenceImage from 'remark-lint-no-unneeded-full-reference-image'
 import remarkLintNoUnneededFullReferenceLink from 'remark-lint-no-unneeded-full-reference-link'
 import remarkLintNoUnusedDefinitions from 'remark-lint-no-unused-definitions'
-import remarkPrettier from 'remark-prettier'
 import remarkRetext from 'remark-retext'
 import remarkToc from 'remark-toc'
 import remarkValidateLinks from 'remark-validate-links'
@@ -21,6 +20,7 @@ import retextRepeatedWords from 'retext-repeated-words'
 import retextSyntaxURLs from 'retext-syntax-urls'
 import { unified } from 'unified'
 import unifiedConsistency from 'unified-consistency'
+import unifiedPrettier from 'unified-prettier'
 
 /**
  * An opiniated remark preset.
@@ -45,7 +45,6 @@ const remarkPresetRemcohaszing = {
     remarkLintNoUnneededFullReferenceImage,
     remarkLintNoUnneededFullReferenceLink,
     remarkLintNoUnusedDefinitions,
-    [remarkPrettier, { report: false }],
     [
       /** @type {import('unified').Plugin} */ (remarkRetext),
       unified()
@@ -57,7 +56,8 @@ const remarkPresetRemcohaszing = {
     ],
     [remarkToc, { tight: true }],
     [remarkValidateLinks, { repository: false }],
-    unifiedConsistency
+    unifiedConsistency,
+    unifiedPrettier
   ]
 }
 

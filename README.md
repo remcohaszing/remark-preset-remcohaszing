@@ -55,7 +55,6 @@ the following plugins:
 - [`remark-lint-no-unneeded-full-reference-image`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-no-unneeded-full-reference-image)
 - [`remark-lint-no-unneeded-full-reference-link`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-no-unneeded-full-reference-link)
 - [`remark-lint-no-unused-definitions`](https://github.com/remarkjs/remark-lint/tree/HEAD/packages/remark-lint-no-unused-definitions)
-- [`remark-prettier`](https://github.com/remcohaszing/remark-prettier)
 - [`remark-toc`](https://github.com/remarkjs/remark-toc)
 - [`remark-validate-links`](https://github.com/remarkjs/remark-validate-links)
 - [`retext-english`](https://github.com/retextjs/retext/tree/main/packages/retext-english)
@@ -64,7 +63,8 @@ the following plugins:
 - [`retext-repeated-words`](https://github.com/retextjs/retext-repeated-words)
 - [`retext-syntax-urls`](https://github.com/retextjs/retext-syntax-urls)
 - [`unified-consistency`](https://github.com/remcohaszing/unified-consistency)
+- [`unified-prettier`](https://github.com/remcohaszing/unified-prettier)
 
 ## License
 
-[MIT](LICENSE.md) @ [Remco Haszing](https://github.com/remcohaszing)
+[MIT](LICENSE.md) © [Remco Haszing](https://github.com/remcohaszing)
