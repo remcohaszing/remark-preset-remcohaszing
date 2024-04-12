@@ -21,8 +21,7 @@
     "test": "remark --frail ."
   },
   "files": [
-    "index.d.ts",
-    "index.js"
+    "index.*"
   ],
   "dependencies": {
     "remark-frontmatter": "^5.0.0",
