@@ -11,6 +11,7 @@ An opiniated [remark](https://remark.js.org) preset.
 - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
+- [Compatibility](#compatibility)
 - [License](#license)
 
 ## Installation
