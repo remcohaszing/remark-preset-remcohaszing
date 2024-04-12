@@ -65,6 +65,10 @@ the following plugins:
 - [`unified-consistency`](https://github.com/remcohaszing/unified-consistency)
 - [`unified-prettier`](https://github.com/remcohaszing/unified-prettier)
 
+## Compatibility
+
+This project is compatible with Node.js 16 or greater.
+
 ## License
 
 [MIT](LICENSE.md) © [Remco Haszing](https://github.com/remcohaszing)
