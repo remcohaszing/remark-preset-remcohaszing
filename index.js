@@ -28,10 +28,13 @@ import unifiedPrettier from 'unified-prettier'
  * @type {import('unified').Preset}
  */
 const remarkPresetRemcohaszing = {
-  settings: {
-    fences: true,
-    listItemIndent: 'one'
-  },
+  settings: /** @type {import('remark-stringify').Options} */ ({
+    bullet: '-',
+    emphasis: '_',
+    quote: "'",
+    rule: '-',
+    tightDefinitions: true
+  }),
   plugins: [
     [remarkFrontmatter, ['toml', 'yaml']],
     remarkGfm,
@@ -46,7 +49,7 @@ const remarkPresetRemcohaszing = {
     remarkLintNoUnneededFullReferenceLink,
     remarkLintNoUnusedDefinitions,
     [
-      /** @type {import('unified').Plugin} */ (remarkRetext),
+      remarkRetext,
       unified()
         .use(retextEnglish)
         .use(retextIndefiniteArticle)
