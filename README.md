@@ -1,8 +1,8 @@
 # remark-preset-remcohaszing
 
 [![github actions](https://github.com/remcohaszing/remark-preset-remcohaszing/actions/workflows/ci.yaml/badge.svg)](https://github.com/remcohaszing/remark-preset-remcohaszing/actions/workflows/ci.yaml)
-[![npm](https://img.shields.io/npm/v/remark-preset-remcohaszing)](https://www.npmjs.com/package/remark-preset-remcohaszing)
-[![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
+[![npm version](https://img.shields.io/npm/v/remark-preset-remcohaszing)](https://www.npmjs.com/package/remark-preset-remcohaszing)
+[![npm downloads](https://img.shields.io/npm/dm/remark-preset-remcohaszing)](https://www.npmjs.com/package/remark-preset-remcohaszing)
 
 An opiniated [remark](https://remark.js.org) preset.
 
