@@ -57,7 +57,7 @@ const remarkPresetRemcohaszing = {
         .use(retextRepeatedWords)
         .use(retextSyntaxURLs)
     ],
-    [remarkToc, { maxDepth: 6 }],
+    [remarkToc, { maxDepth: 3 }],
     [remarkValidateLinks, { repository: false }],
     unifiedConsistency,
     unifiedPrettier
