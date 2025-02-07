@@ -1,3 +1,8 @@
+/**
+ * @import { Preset } from 'unified'
+ * @import { Options } from 'remark-stringify'
+ */
+
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkGfm from 'remark-gfm'
 import remarkLintDefinitionCase from 'remark-lint-definition-case'
@@ -25,10 +30,10 @@ import unifiedPrettier from 'unified-prettier'
 /**
  * An opiniated remark preset.
  *
- * @type {import('unified').Preset}
+ * @type {Preset}
  */
 const remarkPresetRemcohaszing = {
-  settings: /** @type {import('remark-stringify').Options} */ ({
+  settings: /** @type {Options} */ ({
     bullet: '-',
     emphasis: '_',
     quote: "'",
