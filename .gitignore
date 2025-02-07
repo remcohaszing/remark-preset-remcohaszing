@@ -1,4 +1,5 @@
 *.d.ts
 *.map
 *.tgz
+*.tsbuildinfo
 node_modules/
